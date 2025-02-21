@@ -1,0 +1,65 @@
+@import url(animations.css);
+#dev{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:5px;
+    padding:2px;
+    position: fixed;
+    right:10px;
+    bottom:5px;
+}
+#dev img{
+    padding:2px;
+    background-color: white;
+    border-radius: 50px;
+}
+#devName{
+    opacity: 0%;
+    font-weight: bold;
+    padding:7px;
+    margin:5px;
+    border-radius: 20px;
+    background-color: rgba(57, 0, 83, 0.774);
+}
+.opacity_change {
+    animation: opacity_change 0.1s linear;
+}
+
+
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    margin:0px;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#thankYou{
+    width:fit-content;
+}
+#sticker{
+    background-color: rgb(212, 187, 45);
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    height:30px;
+    width:100%;
+}
+#note{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 202, 49);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:10px;
+    width:250px;
+}
+#note p{
+    align-self: end;
+    text-align: end;
+}
+#note div{
+    width:75%;
+}
